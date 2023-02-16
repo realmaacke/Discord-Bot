@@ -10,5 +10,8 @@ const client = new Discord.Client({
 
 
 client.on('ready', (client) => {
-    console.log(`Logged in as : ${client.user.name}`);
+   console.log("logged in")
 })
+
+
+client.login("");
