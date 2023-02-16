@@ -14,4 +14,9 @@ client.on('ready', (client) => {
 })
 
 
+client.on('messageCreate', (message) => {
+    message.reply("test");
+})
+
+
 client.login("");
